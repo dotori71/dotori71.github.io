@@ -35,6 +35,53 @@
       grid-column: span 2;
       grid-row: span 2;
       }
+      .btn {
+        background: #eb94d0;
+        /* 漸層 */
+        background-image: -webkit-linear-gradient(top, #eb94d0, #2079b0);
+        background-image: -moz-linear-gradient(top, #eb94d0, #2079b0);
+        background-image: -ms-linear-gradient(top, #eb94d0, #2079b0);
+        background-image: -o-linear-gradient(top, #eb94d0, #2079b0);
+        background-image: linear-gradient(to bottom, #eb94d0, #2079b0);
+        background-image: -webkit-linear-gradient(top, rgb(255, 241, 160), #eb94d0);
+        background-image: -moz-linear-gradient(top, rgb(255, 241, 160), #eb94d0);
+        background-image: -ms-linear-gradient(top, rgb(255, 241, 160), #eb94d0);
+        background-image: -o-linear-gradient(top, rgb(255, 241, 160), #eb94d0);
+        background-image: linear-gradient(to bottom, rgb(255, 241, 160), #eb94d0);
+        /* 给按钮添加圓角 */
+        -webkit-border-radius: 28;
+        -moz-border-radius: 28;
+        border-radius: 28px;
+        /*text-shadow: 3px 2px 1px #9daef5;
+        -webkit-box-shadow: 6px 5px 24px #666666;
+        -moz-box-shadow: 6px 5px 24px #666666;
+        box-shadow: 6px 5px 24px #666666;*/
+        color: rgb(78, 10, 204);
+        font-size: 22px;
+        padding: 19px;
+        text-decoration: none;
+      }
+      /* 悬停样式 */
+      .btn:hover {
+        color: rgb(78, 10, 204);
+        background: rgb(255, 241, 160);
+        background-image: -webkit-linear-gradient(top, #eb94d0, #2079b0);
+        background-image: -moz-linear-gradient(top, #eb94d0, #2079b0);
+        background-image: -ms-linear-gradient(top, #eb94d0, #2079b0);
+        background-image: -o-linear-gradient(top, #eb94d0, #2079b0);
+        background-image: linear-gradient(to bottom, #eb94d0, #2079b0);
+      }
+      .button {
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+      .column{
+        display:flex;
+        justify-content: center;
+      }
   </style>
   <body style="background-color:rgb(230,207,230);">
     <header>
@@ -45,7 +92,11 @@
       <h5 style="color:rgb(255, 241, 160)"><br> Choose your desired accessories, colors, styles, <br> chains, beading,or mixed... <br>
         Contact me to create a customized unique accessory<br> Just for you (❁ᴗ͈ˬᴗ͈)◞<br>꙳⋆</h5>
     </article>
-    <footer><h3 style="text-align:right;color:rgb(80,80,80);background:linear-gradient(to right,blueviolet,mediumorchid,lightyellow,lightpink)""><hr>cr. ig:<a href="https://instagram.com/ddottorri___?igshid=YmMyMTA2M2Y="><i>ddottorri___</i></a>（❁▿❁＊）</h3></footer>
+    <footer><h5 style="text-align:center;color:rgb(80,80,80);background:linear-gradient(to right,blueviolet,mediumorchid,lightyellow,lightpink)""><hr>𓊆Handmade ⒷⒺⒶⒹⒺⒹ Jewelry𓊇<br>I'm a happy workerᵕ̈ <br>
+      ᶜʳ. ⒾⒼ:<a href="https://instagram.com/ddottorri___?igshid=YmMyMTA2M2Y="><i>ddottorri___</i></a>（❁▿❁＊）<br><div class="column">
+        <div class="button"><a href="dotority.html"><button type="button" class="btn"><u>➲𖠿Homepage𖤥𖧧</u></button></a></div>
+       </div></h5></footer>
+    <footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
   </body>
 </html>
